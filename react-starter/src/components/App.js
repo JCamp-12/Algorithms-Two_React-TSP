@@ -1,3 +1,6 @@
+import React, { Component } from 'react';
+import './../App.css';
+
 // Step 1: Import React, and Component from react.
 // Step 2: Import render from react-dom
 // Step 3: Import MoviesList from MoviesList
@@ -13,9 +16,7 @@
 // Step 12: Inside the selfclosing tag, give it an attribute called movies, and pass it this.state.movies inside a set of curly bracket.
 // Step 13: Outside the class, export the App class as a default.
 
-import React, { Component } from 'react';
 
-import './components/App.css';
 
 class App extends Component {
   render() {
