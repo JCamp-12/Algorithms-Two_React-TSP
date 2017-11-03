@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from './Button';
 import './App.css';
 
 // Step 1: Import React, and Component from react.
@@ -23,9 +24,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Welcome to Intro to Algos</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Button />
       </div>
     );
   }
